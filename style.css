@@ -1,0 +1,17 @@
+.main-container {
+  display: flex;
+  width: 100vw;
+}
+
+.right-side {
+  width: 50%;
+}
+.right-side img {
+  width: 100%;
+}
+
+.left-side {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
