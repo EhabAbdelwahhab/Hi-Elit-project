@@ -1,15 +1,38 @@
 .main-container {
     display: flex;
     width: 100vw;
+    height: 100vh;
 }
 
 .right-side {
     width: 50%;
     img {
         width: 100%;
+        object-fit: cover;
+        height: 100%;
     }
 }
 
 .left-side {
+    display: flex;
+    align-items: center;
+    background-color: #edeef2;
     width: 50%;
+    .left-side-container {
+        .buttom-group {
+            margin-top: 10px;
+        }
+        margin: 0 auto;
+        width: 70%;
+        .face-google {
+            display: flex;
+            margin-top: 10px;
+            .small-buttoms {
+                width: 50%;
+                &.right {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
 }
